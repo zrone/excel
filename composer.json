@@ -1,0 +1,34 @@
+{
+    "name": "zrone/excel",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Simple Excel Library",
+    "authors": [
+        {
+            "name": "zrone",
+            "email": "xujining2008@126.com",
+            "homepage": "https://github.com/zrone/excel"
+        }
+    ],
+    "keywords": [
+        "xls",
+        "Excel",
+        "symfony2",
+        "bundle"
+    ],
+    "homepage": "http://www.hzlanxin.com",
+    "autoload": {
+        "psr-4": {
+            "Zrone\\Excel\\": "src/Excel"
+        }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "phpoffice/phpexcel": "~1.8.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
+    }
+}
